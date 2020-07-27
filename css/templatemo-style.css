@@ -420,18 +420,33 @@ section {
 .slider .item-first {
   background-image: url(../images/slider-image1.jpg);
   background-position: center;
+  background-color: rgba(121, 105, 114, 0.3);
   background-size: cover;
+  position: relative;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(16, 49, 158, 0.5);
 }
 
 .slider .item-second {
   background-image: url(../images/slider-image2.jpg);
   background-position: center;
   background-size: cover;
+  position: relative;
+
 }
 
 .slider .item-third {
   background-image: url(../images/slider-image3.jpg);
 
+  position: relative;
 
 }
 
