@@ -7,10 +7,13 @@ http://www.templatemo.com/tm-515-eatery
 */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
 body {
   background: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
+  ;
   overflow-x: hidden;
 }
 
@@ -432,6 +435,7 @@ section {
 
 }
 
+
 .slider .item-second .section-btn {
   background: #292929;
 }
@@ -799,7 +803,7 @@ footer .social-icon {
 
 .footer-open-hour {
   background: #ce3232;
-  background: url('../images/footer-open-hour-bg.jpg') center center no-repeat;
+  background: url('../images/slider-image1.jpg') center center no-repeat;
   background-size: cover;
   border-radius: 20px;
   margin-top: 0;
