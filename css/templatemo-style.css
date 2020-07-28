@@ -1043,3 +1043,7 @@ footer .social-icon {
     top: 60%;
   }
 }
+
+iframe {
+  width: 100%;
+}
