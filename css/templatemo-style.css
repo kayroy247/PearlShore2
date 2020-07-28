@@ -679,8 +679,11 @@ section {
   -----------------------------------------*/
 
 #testimonial {
-  background: url('../images/testimonial-bg.jpeg') center center no-repeat;
+  background-image: url('../images/testimonial-bg.jpeg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 #testimonial .owl-dots {
@@ -918,6 +921,7 @@ footer .social-icon {
 @media only screen and (max-width: 992px) {
   section {
     padding: 60px 0;
+    width: 100%;
   }
 
   .custom-navbar .section-btn {
