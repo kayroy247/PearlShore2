@@ -160,6 +160,9 @@ section {
   font-weight: normal;
   padding: 10px 25px;
   transition: 0.5s 0.2s;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transform: skew(-10deg);
 }
 
 
@@ -774,6 +777,9 @@ section {
   color: #ffffff;
   font-weight: bold;
   height: 50px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transform: skew(-10deg);
 }
 
 #contact button#cf-submit:hover {
