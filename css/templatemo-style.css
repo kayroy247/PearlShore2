@@ -235,7 +235,7 @@ section {
   color: #ffffff;
   font-size: 18px;
   font-weight: bold;
-  padding: 10px 10px;
+  padding: 10px;
 }
 
 .custom-navbar .navbar-brand span {
@@ -422,7 +422,7 @@ section {
 }
 
 .slider .item-first {
-  background-image: url(../images/slider-image1.jpg);
+  background-image: url(https://res.cloudinary.com/dcfc113t5/image/upload/c_scale,h_1280,q_100,w_1920/v1596623290/PearlshoreAcademy/slider-image1_qnlqo2.jpg);
   background-position: center;
   background-color: rgba(121, 105, 114, 0.3);
   background-size: cover;
